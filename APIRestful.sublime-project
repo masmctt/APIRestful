@@ -2,10 +2,28 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": "C:\\xampp\\htdocs\\webDinamica"
 		},
 		{
-			"path": "C:\\Tareas"
+			"path": "C:\\xampp\\htdocs\\mctt"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\conser"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\laravel-fundamentos"
+		},
+		{
+			"path": "C:\\AppData\\magidata"
+		},
+		{
+			"path": "C:\\wwwApp\\Magi\\wwwroot\\_ModPedidosProv"
+		},
+		{
+			"path": "C:\\Users\\msmondra\\Documents\\SQL Server Management Studio\\Projects\\MAGI\\DesencadenadoresProd"
+		},
+		{
+			"path": "."
 		}
 	]
 }

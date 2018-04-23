@@ -3,17 +3,143 @@
 	{
 		"selected_items":
 		[
+			[
+				"USUA",
+				"USUARIO_ADMINISTRADOR"
+			],
+			[
+				"USU",
+				"USUARIO_VERIFICADO"
+			],
+			[
+				"Us",
+				"USUARIO_VERIFICADO"
+			],
+			[
+				"mr-",
+				"margin-right\t(app.css)"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"csr",
+				"csrf_field\t(create.blade.php)"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"Me",
+				"MessagesController\t(MessagesController.php)"
+			],
+			[
+				"mensaje",
+				"mensajes"
+			],
+			[
+				"reso",
+				"resource\t(MessagesController.php)"
+			],
+			[
+				"des",
+				"destroy\t(MessagesController.php)"
+			],
+			[
+				"met",
+				"method_field\t(edit.blade.php)"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"co",
+				"compact"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"DB",
+				"DB::insert\tRun an insert statement against the database."
+			],
+			[
+				"ex",
+				"except\t(VerifyCsrfToken.php)"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"R",
+				"Request"
+			],
+			[
+				"H",
+				"Http"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"fu",
+				"fun\tfunction …"
+			],
+			[
+				"fun",
+				"function\t(layout.blade.php)"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"mo",
+				"method\tAttr"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"h",
+				"href"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "routes/api.php",
+			"contents": "<?php\n\nnamespace App;\n\n\n\nclass Buyer extends Model\n{\n    public function transactions()\n    {\n    \treturn $this->hasMany(Transaction::class);\n    }\n}\n",
+			"file": "app/Buyer.php",
+			"file_size": 183,
+			"file_write_time": 131689901798001485,
 			"settings":
 			{
-				"buffer_size": 585,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 150,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -24,13 +150,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 236.0,
+		"height": 302.0,
 		"last_filter": "install",
 		"selected_items":
 		[
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"Snippet: nav",
+				"Snippet: nav"
+			],
+			[
+				"Snippet: na",
+				"Snippet: navbars"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ps3-nav",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"bs3-toolbar",
+				"Snippet: bs3-button-toolbar"
 			]
 		],
 		"width": 540.0
@@ -55,31 +201,87 @@
 	"expanded_folders":
 	[
 		"/C/APIRestful",
-		"/C/APIRestful/app",
-		"/C/APIRestful/app/Http",
-		"/C/APIRestful/app/Http/Controllers"
+		"/C/APIRestful/app"
 	],
 	"file_history":
 	[
-		"/C/APIRestful/app/Providers/RouteServiceProvider.php",
-		"/C/APIRestful/app/Seller.php",
 		"/C/APIRestful/app/Buyer.php",
-		"/C/APIRestful/.env",
-		"/C/Users/masmctt_2/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
-		"/C/Users/masmctt_2/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
 		"/C/APIRestful/app/User.php",
-		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
-		"/C/APIRestful/Homestead.yaml"
+		"/C/APIRestful/app/Category.php",
+		"/C/APIRestful/app/Product.php",
+		"/C/Users/msmondra/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/APIRestful/app/Transaction.php",
+		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/FnSp_BajaOsPisa.sql",
+		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/FnAgValOsMaterial.sql",
+		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/InsAgBitacora.sql",
+		"/C/Users/msmondra/Desktop/Curso/demo-06/misiones.md",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Controllers/MessagesController.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/messages/index.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/messages/edit.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/routes/web.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/messages/create.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/laravel-fundamentos/public/css/app.css",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/layout.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Message.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Controllers/PagesController.php",
+		"/C/xampp/htdocs/laravel-fundamentos/routes/web_sinLimpiar.txt",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/error/404.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/errors/404.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/messages/show.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/storage/framework/views/3c7a12cd5f545ee0559e2d3bf9929b97db7f1866.php",
+		"/C/xampp/htdocs/laravel-fundamentos/storage/framework/views/6ce725ccf715fc6ce3e6fc71a8d66dc46684e6fd.php",
+		"/C/xampp/htdocs/laravel-fundamentos/storage/framework/views/b6f93d8bb8f977a9803740a38e808c5809b14ae6.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/messages/distroy.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/storage/framework/views/ce5facc1df88b9e900e1ba201e1dcaa76d33677b.php",
+		"/C/xampp/htdocs/mctt/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/laravel-fundamentos/.env",
+		"/C/xampp/htdocs/conser/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/C/xampp/htdocs/mctt/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+		"/C/xampp/htdocs/webDinamica/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+		"/C/xampp/htdocs/laravel-fundamentos/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/xampp/htdocs/laravel-fundamentos/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/laravel-fundamentos/database/migrations/2018_03_28_015919_add_phone_to_messages_table.php",
+		"/C/xampp/htdocs/laravel-fundamentos/database/migrations/2018_03_28_014825_create_messages_table.php",
+		"/C/xampp/htdocs/mctt/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/contactos.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Middleware/Example.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Kernel.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/laravel-fundamentos/app/Http/Requests/CreateMessageRequest.php",
+		"/C/xampp/htdocs/laravel-fundamentos/config/app.php",
+		"/C/xampp/htdocs/webDinamica/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/home.blade.php",
+		"/C/xampp/htdocs/webDinamica/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/webDinamica/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/C/Users/msmondra/Desktop/Quitar/ReportesDaskBoard/_dashboard030.asp",
+		"/C/wwwApp/Magi/wwwroot/_dashboard/_lib/_dashboardLib.asp",
+		"/C/AppData/magidata/public/_dashboard/_logistica/_dashboard030/_dashboard03011repExp.asp",
+		"/C/AppData/magidata/public/_dashboard/_lib/_dashboardLib.asp",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/saludo.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/resources/views/saludo_0.blade.php",
+		"/C/xampp/htdocs/laravel-fundamentos/storage/framework/views/415b117b6701b230d683027c5505f9950985c4cf.php",
+		"/C/xampp/htdocs/conser/routes/web.php",
+		"/C/xampp/htdocs/conser/resources/views/index.blade.php",
+		"/C/xampp/htdocs/webDinamica/app/Http/Controllers/FrontEndController.php",
+		"/C/xampp/htdocs/webDinamica/resources/views/web/index.blade.php",
+		"/C/xampp/htdocs/mctt/config/app.php",
+		"/C/xampp/htdocs/webDinamica/routes/web.php",
+		"/C/xampp/htdocs/webDinamica/resources/views/layout/home.blade.php",
+		"/C/xampp/htdocs/webDinamica/resources/views/welcome.blade.php"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 104.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -87,6 +289,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"route('messages.",
+			"rouute('messages.",
+			"exportRep2",
+			"AgResumenReporteAll",
+			"select",
+			"postJSONDataAll",
+			"GetSelect_fields"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -94,6 +303,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"route('mensajes."
 		],
 		"reverse": false,
 		"show_context": true,
@@ -109,19 +319,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "routes/api.php",
+					"file": "app/Buyer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								581,
-								581
+								126,
+								126
 							]
 						],
 						"settings":
@@ -129,11 +339,173 @@
 							"SL.14.region_keys":
 							[
 							],
-							"SL.52.region_keys":
+							"SL.57.region_keys":
 							[
-								"sublime_linter.protected_regions"
 							],
 							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										139,
+										140
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										120,
+										121
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -148,11 +520,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -193,7 +565,7 @@
 	"project": "APIRestful.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -231,7 +603,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 487.0,
+	"side_bar_width": 347.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
