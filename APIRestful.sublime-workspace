@@ -131,17 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<?php\n\nnamespace App;\n\n\n\nclass Buyer extends Model\n{\n    public function transactions()\n    {\n    \treturn $this->hasMany(Transaction::class);\n    }\n}\n",
-			"file": "app/Buyer.php",
-			"file_size": 183,
-			"file_write_time": 131689901798001485,
-			"settings":
-			{
-				"buffer_size": 150,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -200,17 +189,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/APIRestful",
-		"/C/APIRestful/app"
+		"/C/APIRestful"
 	],
 	"file_history":
 	[
-		"/C/APIRestful/app/Buyer.php",
-		"/C/APIRestful/app/User.php",
+		"/C/APIRestful/database/factories/UserFactory.php",
+		"/C/APIRestful/database/seeds/DatabaseSeeder.php",
+		"/C/APIRestful/database/migrations/2018_04_24_001903_category_product_table.php",
+		"/C/APIRestful/app/Providers/AppServiceProvider.php",
+		"/C/APIRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000859_create_categories_table.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000344_create_products_table.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000448_create_transactions_table.php",
+		"/C/xampp/htdocs/mctt/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php",
+		"/C/APIRestful/app/Transaction.php",
 		"/C/APIRestful/app/Category.php",
 		"/C/APIRestful/app/Product.php",
+		"/C/APIRestful/app/Seller.php",
+		"/C/APIRestful/app/Buyer.php",
+		"/C/APIRestful/app/User.php",
+		"/C/Users/msmondra/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/C/Users/msmondra/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
 		"/C/Users/msmondra/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
-		"/C/APIRestful/app/Transaction.php",
 		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/FnSp_BajaOsPisa.sql",
 		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/FnAgValOsMaterial.sql",
 		"/C/Users/msmondra/Documents/SQL Server Management Studio/Projects/MAGI/DesencadenadoresProd/InsAgBitacora.sql",
@@ -314,207 +314,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Buyer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.57.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										139,
-										140
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										120,
-										121
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
