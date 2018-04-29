@@ -6,9 +6,6 @@ use App\Product;
 use App\Category;
 use App\Transaction;
 
-
-
-
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -35,7 +32,6 @@ $factory->define(User::class, function (Faker\Generator $faker) {
 });
 
 $factory->define(Category::class, function (Faker\Generator $faker) {
-
     return [
         'name' => $faker->word,
         'description' => $faker->paragraph(1),
@@ -43,7 +39,6 @@ $factory->define(Category::class, function (Faker\Generator $faker) {
 });
 
 $factory->define(Product::class, function (Faker\Generator $faker) {
-
     return [
         'name' => $faker->word,
         'description' => $faker->paragraph(1),
@@ -56,10 +51,8 @@ $factory->define(Product::class, function (Faker\Generator $faker) {
 });
 
 $factory->define(Transaction::class, function (Faker\Generator $faker) {
-
-    $vendedor = Seller::has('products')->get()->random();
-    $comprador = User::all()->except($vendedor->id)->random();
-
+	$vendedor = Seller::has('products')->get()->random();
+	$comprador = User::all()->except($vendedor->id)->random();
     return [
         'quantity' => $faker->numberBetween(1, 3),
         'buyer_id' => $comprador->id,

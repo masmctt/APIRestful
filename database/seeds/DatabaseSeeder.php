@@ -16,13 +16,21 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
     	DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+=======
+        DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+>>>>>>> 406525d5d34894746240cbfa876d1ccd4eb5df21
         User::truncate();
         Category::truncate();
         Product::truncate();
         Transaction::truncate();
         DB::table('category_product')->truncate();
+<<<<<<< HEAD
         $cantidadUsuarios = 1000;
+=======
+        $cantidadUsuarios = 200;
+>>>>>>> 406525d5d34894746240cbfa876d1ccd4eb5df21
         $cantidadCategorias = 30;
         $cantidadProductos = 1000;
         $cantidadTransacciones = 1000;

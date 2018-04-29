@@ -55,6 +55,7 @@ class User extends Authenticatable
     {
         return $this->verified == User::USUARIO_VERIFICADO;
     }
+
     public function esAdministrador()
     {
         return $this->admin == User::USUARIO_ADMINISTRADOR;

@@ -43,32 +43,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/APIRestful",
-		"/C/APIRestful/app",
-		"/C/APIRestful/app/Http",
-		"/C/APIRestful/app/Http/Controllers",
-		"/C/APIRestful/app/Http/Controllers/Buyer",
-		"/C/APIRestful/app/Http/Controllers/Category",
-		"/C/APIRestful/app/Http/Controllers/Product",
-		"/C/APIRestful/app/Http/Controllers/Seller",
-		"/C/APIRestful/app/Http/Controllers/Transaction",
-		"/C/APIRestful/app/Http/Controllers/User",
-		"/C/APIRestful/app/Scopes",
-		"/C/APIRestful/database",
-		"/C/APIRestful/database/factories",
-		"/C/APIRestful/database/migrations",
-		"/C/APIRestful/database/seeds",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/Scopes",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/factories",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/migrations",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/public",
-		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/public/img"
-	],
 	"file_history":
 	[
 		"/C/APIRestful/app/User.php",
@@ -156,7 +130,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{

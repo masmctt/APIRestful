@@ -15,6 +15,7 @@ class Seller extends user
 	}
 
     public function products()
+
     {
     	return $this->hasMany(Product::class);
     }
