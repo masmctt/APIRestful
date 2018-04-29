@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/api.php",
-			"settings":
-			{
-				"buffer_size": 585,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -57,17 +48,67 @@
 		"/C/APIRestful",
 		"/C/APIRestful/app",
 		"/C/APIRestful/app/Http",
-		"/C/APIRestful/app/Http/Controllers"
+		"/C/APIRestful/app/Http/Controllers",
+		"/C/APIRestful/app/Http/Controllers/Buyer",
+		"/C/APIRestful/app/Http/Controllers/Category",
+		"/C/APIRestful/app/Http/Controllers/Product",
+		"/C/APIRestful/app/Http/Controllers/Seller",
+		"/C/APIRestful/app/Http/Controllers/Transaction",
+		"/C/APIRestful/app/Http/Controllers/User",
+		"/C/APIRestful/app/Scopes",
+		"/C/APIRestful/database",
+		"/C/APIRestful/database/factories",
+		"/C/APIRestful/database/migrations",
+		"/C/APIRestful/database/seeds",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/Scopes",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/factories",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/migrations",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/public",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/public/img"
 	],
 	"file_history":
 	[
-		"/C/APIRestful/app/Providers/RouteServiceProvider.php",
+		"/C/APIRestful/app/User.php",
+		"/C/APIRestful/app/Transaction.php",
+		"/C/APIRestful/app/Product.php",
+		"/C/APIRestful/app/Category.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000344_create_products_table.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000448_create_transactions_table.php",
+		"/C/APIRestful/database/migrations/2018_04_22_000859_create_categories_table.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/APIRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/APIRestful/app/Traits/ApiResponser.php",
+		"/C/APIRestful/app/Exceptions/Handler.php",
+		"/C/APIRestful/app/Http/Controllers/ApiController.php",
 		"/C/APIRestful/app/Seller.php",
+		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/C/APIRestful/app/Http/Controllers/User/UserController.php",
 		"/C/APIRestful/app/Buyer.php",
+		"/C/APIRestful/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/APIRestful/app/Http/Controllers/Seller/SellerController.php",
+		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Debug/ExceptionHandler.php",
+		"/C/APIRestful/app/Http/Controllers/Transaction/TransactionController.php",
+		"/C/APIRestful/app/Http/Controllers/Product/ProductController.php",
+		"/C/APIRestful/app/Http/Controllers/Category/CategoryController.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/Category.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/Buyer.php",
+		"/C/APIRestful/database/seeds/DatabaseSeeder.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/migrations/2017_02_15_041518_create_products_table.php",
+		"/C/APIRestful/database/factories/UserFactory.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/database/factories/ModelFactory.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/Providers/AppServiceProvider.php",
+		"/C/APIRestful/app/Providers/AppServiceProvider.php",
+		"/C/Cursos/API-RESTful-con-Laravel-Guia-Definitiva/app/User.php",
+		"/C/APIRestful/routes/api.php",
+		"/C/APIRestful/database/migrations/2018_04_28_213857_category_product_table.php",
+		"/C/Tareas/mis Tareas.txt",
+		"/C/APIRestful/app/Providers/RouteServiceProvider.php",
 		"/C/APIRestful/.env",
 		"/C/Users/masmctt_2/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
 		"/C/Users/masmctt_2/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
-		"/C/APIRestful/app/User.php",
 		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
 		"/C/APIRestful/Homestead.yaml"
 	],
@@ -104,45 +145,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/api.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								581,
-								581
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.52.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -231,7 +235,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 487.0,
+	"side_bar_width": 412.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
