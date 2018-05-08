@@ -6,7 +6,7 @@ use App\Transaction;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
 
-class TransactionCategoryController extends ApiController
+class TransactionSellerController extends ApiController
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class TransactionCategoryController extends ApiController
      */
     public function index(Transaction $transaction)
     {
-        $categories = $transaction->product->categories;
-        return $this->showAll($categories);
+        $seller = $transaction->product->seller;
+        return $this->showOne($seller);
     }
 }
