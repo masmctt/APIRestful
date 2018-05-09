@@ -18,7 +18,7 @@ class Transaction extends Model
     	'product_id',
     ];
 
-    public function buter()
+    public function buyer()
     {
     	return $this->belongsTo(Buyer::class);
     }
