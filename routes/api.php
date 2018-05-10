@@ -43,11 +43,13 @@ Route::resource('products','Product\ProductController',['only' => ['index','show
 Route::resource('products.categories','Product\ProductCategoryController',['only' => ['index']]);
 Route::resource('products.buyers','Product\ProductBuyerController',['only' => ['index']]);
 Route::resource('products.tansactions','Product\ProductTransactionController',['only' => ['index']]);
+Route::resource('products.buyers.transactions', 'Product\ProductBuyerTransactionController', ['only' => ['store']]);
+
 /**
 * Transactions
 */
 Route::resource('transactions','Transaction\TransactionController',['only' => ['index','show']]);
-Route::resource('transactions.categories', 'Transaction\TransactionCategoryController', ['only' => ['index']]);
+Route::resource('transactions.categories', 'Transaction\TransactionCategoryController', ['only' => ['index','update','destroy']]);
 Route::resource('transactions.sellers', 'Transaction\TransactionSellerController', ['only' => ['index']]);
 
 /**
