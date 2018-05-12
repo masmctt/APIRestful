@@ -47,8 +47,8 @@ class SellerProductController extends ApiController
         $data = $request->all();
 
         $data['status'] = Product::PRODUCTO_NO_DISPONIBLE;
-//        $data['image'] = $request->image->store('');
-        $data['image'] = "1.jpg";
+        $data['image'] = $request->image->store('');
+//        $data['image'] = "1.jpg";
         $data['seller_id'] = $seller->id;
 
         $product = Product::create($data);
@@ -115,7 +115,7 @@ class SellerProductController extends ApiController
     {
         $this->verificarVendedor($seller, $product);
 
-       // Storage::delete($product->image);
+        Storage::delete($product->image);
 
         $product->delete();
 
